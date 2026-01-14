@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table All Tags Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            padding: 40px;
+        }
+
+        table {
+            width: 60%;
+            margin: auto;
+            border-collapse: collapse;
+            background: #ffffff;
+        }
+
+        caption {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 12px;
+            text-align: center;
+        }
+
+        thead {
+            color: white;
+        }
+
+        tbody {
+            background-color: #f9f9f9;
+        }
+
+        tfoot {
+            background-color: #eaeaea;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <!-- Table Caption -->
+        <caption>Student Information Table</caption>
+
+        <!-- Column Group -->
+        <colgroup>
+            <col style="background-color: #1a031e;">
+            <col style="background-color: #900734;">
+            <col style="background-color: #32b23d;">
+        </colgroup>
+
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Sajib</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Asif</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Ratul</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+
+        <!-- Table Footer -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Students: 3</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
